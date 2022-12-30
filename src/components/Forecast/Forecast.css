@@ -1,0 +1,43 @@
+.Forecast{
+    margin-left: 5%;
+    color: white;
+    background-color: rgba(0, 10, 10, 0.3);
+    /* text-align: center; */
+    margin-top: 50px;
+    width: 90%;
+    border-radius: 10px;
+    height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.datas{
+    text-align: center;
+    margin-left: 5%;
+    padding-right: 5%;
+    border-right: 2px solid #ebebc4;
+}
+.Forecast{
+    display: inline-flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+#iconnsinfore,.tempinfore,.weatherinfore,.semiweatherinfore,.day{
+    padding-top: 15%;
+}
+#iconnsinfore{
+    color: red;
+}
+.Forecast{
+    overflow-x: scroll;
+    overflow-y: none
+     ;
+}
+.tempinfore{
+    font-size: 22px;
+    width: max-content;
+    
+}
+.semiweatherinfore{
+    width: max-content;
+
+}
